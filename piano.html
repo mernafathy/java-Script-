@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+       <link rel="stylesheet" href="style.css">
+       <title>pPlayable PIANO</title>
+    </head>
+    <body>
+       <div  class="wrapper">
+       <header>
+          <h2> Playable PIANO</h2>
+          <div class=" column volume">
+            <span>Volume</span>
+            <input min="0" max="1" value="0" step="0.1" 
+            type="range">
+          </div>
+
+          <div class="column checkbox">
+            <span>Show keys</span>
+            <input type="checkbox" checked>
+          </div>
+       </header>
+
+
+       <ul class="pianoKays">    
+        <li class="key white" onclick="playTune(this)" data-Key="a"><span>a</span></li> 
+        <li class="key black" onclick="playTune(this)" data-Key="w"><span>w</span></li>
+        <li class="key white" onclick="playTune(this)" data-Key="s"><span>s</span></li>
+        <li class="key black" onclick="playTune(this)" data-Key="e"><span>e</span></li>
+        <li class="key white" onclick="playTune(this)" data-Key="d"><span>d</span></li>
+        <li class="key black" onclick="playTune(this)" data-Key="f"><span>f</span></li>
+        <li class="key white" onclick="playTune(this)" data-Key="t"><span>t</span></li>
+        <li class="key black" onclick="playTune(this)" data-Key="g"><span>g</span></li>
+        <li class="key white" onclick="playTune(this)" data-Key="y"><span>y</span></li>
+        <li class="key black" onclick="playTune(this)" data-Key="h"><span>h</span></li>
+        <li class="key white" onclick="playTune(this)" data-Key="u"><span>u</span></li>
+        <li class="key black" onclick="playTune(this)" data-Key="j"><span>j</span></li>
+        <li class="key white" onclick="playTune(this)" data-Key="k"><span>k</span></li>
+        <li class="key black" onclick="playTune(this)" data-Key="o"><span>o</span></li>
+        <li class="key white" onclick="playTune(this)" data-Key="i"><span>i</span></li>
+        <li class="key black" onclick="playTune(this)" data-Key="p"><span>p</span></li>
+        <li class="key white" onclick="playTune(this)" data-Key=";"><span>;</span></li>
+       </ul>
+
+       </div>
+
+        
+    
+
+        <script src="script.js"></script>
+    </body>
+</html>
